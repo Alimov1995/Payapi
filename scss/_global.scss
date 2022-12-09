@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+@media (max-width: 1110px) {
+  .container {
+    width: 90%;
+  }
+}
+body {
+  overflow-x: hidden;
+  background: #edf3f8;
+}
+a{
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+}
+input {
+  border: none;
+}
